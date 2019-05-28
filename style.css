@@ -1,5 +1,6 @@
 /* css reset file*/
 
+*{box-sizing: border-box;}
 
 body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
 ol, li, dl, dt, dd, form, a, fieldset, input, th, td
@@ -108,6 +109,10 @@ div[class*="col"]::after, div[rel*="col"]::after {
     content: "";
     clear: both;
     display: table; }
+
+
+.row{  width: 99.5%  }
+
 
 /* Font styling */
 
